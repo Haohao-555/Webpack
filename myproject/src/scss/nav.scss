@@ -1,0 +1,23 @@
+.nav {
+    height: 80px;
+    background-color: #f0f0f0;
+    ul {
+        height: 80px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        li {
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        li.active {
+            background-color: #f00;
+            color: #fff;
+        }
+    }
+}

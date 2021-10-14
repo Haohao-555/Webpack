@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav {
+    height: 80px;
+    background-color: #f0f0f0;
+}
+.nav ul {
+    width: 900px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.nav ul li.active {
+    background-color: #f00;
+    color: #fff;
+}
